@@ -1,0 +1,13 @@
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 100
+
+IncludeBlocks: Preserve
+
+IncludeCategories:
+  - Regex: '^<.*\.h>$'
+    Priority: -3
+  - Regex: '^<\w*[^.]*>$'
+    Priority: -2
+  - Regex: '^"\w*"$'
+    Priority: -1
